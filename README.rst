@@ -13,8 +13,7 @@ Installation Instructions
        pip install lifelogger
 
 2. Run for the first time, which should initialize the OAuth connection
-   dialog.
-
+   dialog. You may need to install `oauth2client` from pip, if not installed.
    .. code-block:: sh
 
        lifelogger now "Started lifelogger"
